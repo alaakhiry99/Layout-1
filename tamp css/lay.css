@@ -1,0 +1,152 @@
+/*264 */
+/*  Start main */
+* { box-sizing: border-box;
+    }
+body{ background-color:black; color: white;}
+.container {width: 1170px; margin: auto;}
+.clearfix { clear: both;}
+ /*  End main */
+ 
+/* Start header */
+    .header .slider {  height:600px;
+                      background-image: url("https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1170");
+                      -o-background-size: cover;
+                      -webkit-background-size: cover;
+                         background-size: cover;}
+                         
+.header .slider .intro { padding-top: 200px; text-align: center; color: #FFF;}                      
+.header .slider .intro h2 {margin-top: 110px; margin-left: auto; margin-right: auto; border-top: 5px #FFF solid;
+                                 border-bottom: 5px #FFF solid; font-size: 50px; padding: 5px 0; width: 550px;}
+ .header .slider .intro button { background:none; width: 140px; border: 1px #FFF solid; color: #FFF;
+                                     margin:0 auto; padding: 10px 20px; font-weight:bold; cursor: pointer;}  
+    
+ .header .navbar   { background-color:#252F31; color: #FFF; overflow: hidden; padding: 0; }
+                         
+ .header .navbar h2 { float: left;  text-transform: uppercase;}
+    
+    .header .navbar h2 span { color: #42AAC4;}
+    
+    .header .navbar ul { list-style: none;
+                        padding-left: 0;
+                        float: right;
+                         }
+                         
+ .header .navbar ul li { float: left; padding: 10px;}
+ .header .navbar ul li a { text-decoration: none; color: #FFF; font-size: 20px;}
+  .header .navbar ul li a:hover{ color: #42AAC4; }
+  .header .navbar ul li span { color: #42AAC4;}
+  .header .navbar ul li span:hover{ color: #FFF;}
+    /* End header */
+    
+    /*  Start Features */
+    .features { overflow: hidden; padding-top: 40px; padding-bottom:50px;}
+    .features .f { float: left; width: 33.333333%; }
+    .features .f p { line-height: 1.4; color: #888; }
+    /* End Features */
+    
+   /* Start About me */
+    .aboutme { background-color: #444444; overflow: hidden; }
+    .aboutme .image { width: 40%;  float: left;}
+    .aboutme .image img { width:100%;}
+    .aboutme .info { width: 60%; float: left; }
+    .aboutme .info h2 { margin: 10px 0 5px 40px; }  
+    .aboutme .info > p { margin: 0 0 5px 40px; }
+    .aboutme .info > p:last-of-type { margin-top:15px; }
+    .aboutme .info p { line-height: 1.3; color:#999; }
+    .aboutme .info .hobby { overflow: hidden; margin: 15px 0 0 40px; }                   
+    .aboutme .info .hobby .content { overflow: hidden; width: 50%; float: left; }
+    .aboutme .info .hobby .content .icon {  width: 12%; margin-right: 5%;}
+    .aboutme .info .hobby .content .icon img {  margin-top:30px;color:#2DCC70; max-width: 100%; float: left;} 
+    .aboutme .info .hobby .content .text { width: 83%;}
+    .aboutme .info .hobby .content .text p { margin-top:0;}
+    .aboutme .info .hobby .content .text h3 { margin-top:1px; margin-bottom: 3px;}
+    /* End About me */
+    
+    /* Start my skills */
+    .myskill { padding-bottom: 70px; padding-top: 50px; overflow: hidden; background-color:black;  }     
+    .myskill .skills {  width: 50%; float: left;  margin-right: 5%;}
+    .myskill .progress { width: 45%;float:left; }
+    .myskill .skills h2 { margin: 25px 0 20px 40px; color: #999;}  
+    .myskill .skills p { margin: 0 0 10px 40px;  line-height: 1.5; color:#666;  }
+    .myskill .skills p:last-of-type { margin-top:25px; }
+    .myskill .skills button {  margin-top: 5px; margin-left: 40px; cursor: pointer}
+    .myskill .progress .tech {  margin-left: 10px; margin-top:0}
+    .myskill .progress .tech h3 {color:#999 }
+    .myskill .progress .tech div { height: 25px; background-color: #C9BFBF;}
+    .myskill .progress .tech div span { background-color: #277E93; display: block; height: 25px; text-align: right; line-height: 25px; font-weight: bold;}
+      
+    /* End my skills */
+    
+    /* Start Resume */
+    .resume { background-color: #B7B3B3; padding-bottom: 30px; padding-top: 30px;
+              text-align: center; color: black; margin-top: 5px; }
+    .resume h2{ color: #444242; font-weight: bold;}
+    .resume p{ color: #666 }
+    .resume button{ font-weight: bold; margin-top: 15px; cursor: pointer;}
+    /* End Resumr */
+    
+    /*  Start Education */
+    .myeducation { padding-bottom: 30px; padding-top:30px; overflow: hidden; background-color: black;}
+    .myeducation .main { width: 50% ; margin-right: 5%; float: left}
+    .myeducation .main h2 { margin: 25px 0 20px 40px; color: #999}
+    .myeducation .main p { margin: 0 0 10px 40px; color: #666; line-height: 1.6}
+    .myeducation .main p:last-of-type { margin-top: 25px;}
+    .myeducation .exp { width: 45%; float: left;}
+    .myeducation .exp h3 {margin-top: 80px; color:#999; margin-bottom: 8px; }
+    .myeducation .exp p { color: #666; margin-bottom: 8px; line-height: 1.7}
+    .myeducation .exp button { background-color:black; color:#42AAC4 ; font-weight: bold; padding: 4px 10px; cursor: pointer; border-color:#42AAC4;}
+    .myeducation hr { margin: 20px 0; background-color: #999; height: 1px; border: 0}
+    /* End Education */
+    
+    /* Start tastemonials */
+   .taste {  background-color: #F2F2F2; padding-bottom: 50px; padding-top: 50px; text-align: center;}
+   .taste q{  color: #888; font: italic bold 17px/1.7 Arial,Tahoma;  }         
+   .taste h3 { color: #383737; margin-bottom: 30px;}
+   .taste ul { list-style: none; padding-left: 0; text-align: center;}
+   .taste ul li { width:15px; height: 15px; border: 2px #42AAC4 solid; display: inline-block; border-radius:50%; }
+   .taste ul li.acti,
+   .taste ul li:hover { background-color:#42AAC4; cursor: pointer; }
+   
+    /* End tastemonials */
+    
+    /*  Start portofolio */
+    .portofolio { padding-bottom: 70px; padding-top: 50px; text-align: center; }
+    .portofolio h2 { color: #DDD;}
+    .portofolio p { line-height: 1.7; color: #999; margin-bottom: 30px; }
+    .portofolio .our-work { overflow: hidden; }
+    .portofolio .our-work > div { width: 33.333333%; float: left; margin-bottom: 10px;}
+     .portofolio .our-work > div img { width:92%; height:300px; margin: 10px;
+                                       padding: 3px; background-color: #FFF;
+                                       border: 2px solid #CCC;
+                                       box-shadow: 10px 10px 5px #CCC}
+    /* End portofolio */
+    
+    /* Start contact */
+    
+    .contact { overflow: hidden; background-color: #252F31;
+               padding-bottom: 70px; padding-top: 50px;}
+    .contact .info { width: 50%; float: left; margin-right: 5%;}
+    .contact h2 { margin-left: 40px; }
+    .contact p { color: #6A6E7A; margin-left: 40px; line-height:1.8 }
+    .contact p strong { color: #FFF}
+    .contact .form { width: 45%; float: left; }              
+    .contact .form label { display: block; color: #D1D6DA; margin: 0 10px;}
+    .contact .form input[ type="text"] { background-color: #B7B3B3; color: #FFF; padding: 5px;
+                                          border: 0; width: 80%; margin-bottom: 10px; border:2px #42AAC4 solid;}
+   .contact .form textarea {  background-color: #B7B3B3; color: #FFF; padding: 5px; border: 0;
+                                            width: 80%; margin-bottom: 10px; height: 300px; border:2px #42AAC4 solid;}
+  .contact .form input[type="submit"] { background-color:#191E22;color: #FFF; padding: 10px 20px;
+                                        margin-top: 10px; border: 0; cursor: pointer}
+    /* End Contact */
+    
+    /* Start footer */
+   .footer { background-color: #2D3033; text-align: center;
+              color:#6A6E7A; padding: 20px 0;}
+              
+   .footer ul { list-style: none; padding-left: 0; margin: 10px 0 0}
+   .footer ul li { display: inline-block}
+   /* End footer */
+    
+    /* Start Framework */
+    .mybutton { background: none; border: 3px #42AAC4 solid; padding: 10px 30px; color: #42AAC4;} 
+    /* End Framework */
